@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="hours">Hours</label>
+    <input name="hours" id="hours" type="text"/>
+    <label for="minutes">Minutes</label>
+    <input name="minutes" id="minutes" type="text"/>
+
+    <label for="setTimeZone">Continent time zone</label>
+    <input id="timeZone" list="setTimeZone">
+    <datalist id="setTimeZone" name="setTimeZone">
+       <option></option>
+    </datalist>
+
+    <div id="output">
+    </div>
+    <div id="errorMessage">
+    </div>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
